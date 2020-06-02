@@ -1,0 +1,373 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Mon Nov 18 22:10:41 2019
+| Host         : DESKTOP-BELET9Q running 64-bit major release  (build 9200)
+| Command      : report_methodology -file Store_Data_methodology_drc_routed.rpt -pb Store_Data_methodology_drc_routed.pb -rpx Store_Data_methodology_drc_routed.rpx
+| Design       : Store_Data
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 67
++-----------+----------+-------------------------------+------------+
+| Rule      | Severity | Description                   | Violations |
++-----------+----------+-------------------------------+------------+
+| LUTAR-1   | Warning  | LUT drives async reset alert  | 1          |
+| TIMING-18 | Warning  | Missing input or output delay | 1          |
+| TIMING-20 | Warning  | Non-clocked latch             | 33         |
+| TIMING-23 | Warning  | Combinational loop found      | 32         |
++-----------+----------+-------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell chk_OBUF_inst_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) seg_reg[6]/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An output delay is missing on chk relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch number_reg[0] cannot be properly analyzed as its control pin number_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch number_reg[10] cannot be properly analyzed as its control pin number_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch number_reg[11] cannot be properly analyzed as its control pin number_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch number_reg[12] cannot be properly analyzed as its control pin number_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch number_reg[13] cannot be properly analyzed as its control pin number_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch number_reg[14] cannot be properly analyzed as its control pin number_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch number_reg[15] cannot be properly analyzed as its control pin number_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#8 Warning
+Non-clocked latch  
+The latch number_reg[16] cannot be properly analyzed as its control pin number_reg[16]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#9 Warning
+Non-clocked latch  
+The latch number_reg[17] cannot be properly analyzed as its control pin number_reg[17]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#10 Warning
+Non-clocked latch  
+The latch number_reg[18] cannot be properly analyzed as its control pin number_reg[18]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#11 Warning
+Non-clocked latch  
+The latch number_reg[19] cannot be properly analyzed as its control pin number_reg[19]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#12 Warning
+Non-clocked latch  
+The latch number_reg[1] cannot be properly analyzed as its control pin number_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#13 Warning
+Non-clocked latch  
+The latch number_reg[20] cannot be properly analyzed as its control pin number_reg[20]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#14 Warning
+Non-clocked latch  
+The latch number_reg[21] cannot be properly analyzed as its control pin number_reg[21]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#15 Warning
+Non-clocked latch  
+The latch number_reg[22] cannot be properly analyzed as its control pin number_reg[22]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#16 Warning
+Non-clocked latch  
+The latch number_reg[23] cannot be properly analyzed as its control pin number_reg[23]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#17 Warning
+Non-clocked latch  
+The latch number_reg[24] cannot be properly analyzed as its control pin number_reg[24]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#18 Warning
+Non-clocked latch  
+The latch number_reg[25] cannot be properly analyzed as its control pin number_reg[25]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#19 Warning
+Non-clocked latch  
+The latch number_reg[26] cannot be properly analyzed as its control pin number_reg[26]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#20 Warning
+Non-clocked latch  
+The latch number_reg[27] cannot be properly analyzed as its control pin number_reg[27]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#21 Warning
+Non-clocked latch  
+The latch number_reg[28] cannot be properly analyzed as its control pin number_reg[28]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#22 Warning
+Non-clocked latch  
+The latch number_reg[29] cannot be properly analyzed as its control pin number_reg[29]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#23 Warning
+Non-clocked latch  
+The latch number_reg[2] cannot be properly analyzed as its control pin number_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#24 Warning
+Non-clocked latch  
+The latch number_reg[30] cannot be properly analyzed as its control pin number_reg[30]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#25 Warning
+Non-clocked latch  
+The latch number_reg[31] cannot be properly analyzed as its control pin number_reg[31]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#26 Warning
+Non-clocked latch  
+The latch number_reg[3] cannot be properly analyzed as its control pin number_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#27 Warning
+Non-clocked latch  
+The latch number_reg[4] cannot be properly analyzed as its control pin number_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#28 Warning
+Non-clocked latch  
+The latch number_reg[5] cannot be properly analyzed as its control pin number_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#29 Warning
+Non-clocked latch  
+The latch number_reg[6] cannot be properly analyzed as its control pin number_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#30 Warning
+Non-clocked latch  
+The latch number_reg[7] cannot be properly analyzed as its control pin number_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#31 Warning
+Non-clocked latch  
+The latch number_reg[8] cannot be properly analyzed as its control pin number_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#32 Warning
+Non-clocked latch  
+The latch number_reg[9] cannot be properly analyzed as its control pin number_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#33 Warning
+Non-clocked latch  
+The latch seg_reg[6] cannot be properly analyzed as its control pin seg_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-23#1 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between chk_OBUF_inst_i_1215/S[0] and chk_OBUF_inst_i_1215/O[0] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#2 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between chk_OBUF_inst_i_1215/S[1] and chk_OBUF_inst_i_1215/O[1] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#3 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between chk_OBUF_inst_i_1215/S[2] and chk_OBUF_inst_i_1215/O[2] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#4 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between chk_OBUF_inst_i_1215/S[3] and chk_OBUF_inst_i_1215/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#5 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between chk_OBUF_inst_i_1216/S[0] and chk_OBUF_inst_i_1216/O[0] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#6 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between chk_OBUF_inst_i_1216/S[1] and chk_OBUF_inst_i_1216/O[1] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#7 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between chk_OBUF_inst_i_1216/S[2] and chk_OBUF_inst_i_1216/O[2] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#8 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between chk_OBUF_inst_i_1216/S[3] and chk_OBUF_inst_i_1216/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#9 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between chk_OBUF_inst_i_1373/S[1] and chk_OBUF_inst_i_1373/O[1] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#10 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between chk_OBUF_inst_i_1373/S[2] and chk_OBUF_inst_i_1373/O[2] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#11 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between chk_OBUF_inst_i_1373/S[3] and chk_OBUF_inst_i_1373/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#12 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between chk_OBUF_inst_i_1381/S[1] and chk_OBUF_inst_i_1381/O[1] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#13 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between chk_OBUF_inst_i_1381/S[2] and chk_OBUF_inst_i_1381/O[2] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#14 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between chk_OBUF_inst_i_1381/S[3] and chk_OBUF_inst_i_1381/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#15 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between chk_OBUF_inst_i_1383/S[3] and chk_OBUF_inst_i_1383/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#16 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between chk_OBUF_inst_i_1390/S[1] and chk_OBUF_inst_i_1390/O[1] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#17 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between chk_OBUF_inst_i_1390/S[2] and chk_OBUF_inst_i_1390/O[2] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#18 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between chk_OBUF_inst_i_1390/S[3] and chk_OBUF_inst_i_1390/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#19 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between chk_OBUF_inst_i_1391/S[3] and chk_OBUF_inst_i_1391/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#20 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between chk_OBUF_inst_i_1397/S[1] and chk_OBUF_inst_i_1397/O[1] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#21 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between chk_OBUF_inst_i_1397/S[2] and chk_OBUF_inst_i_1397/O[2] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#22 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between chk_OBUF_inst_i_1397/S[3] and chk_OBUF_inst_i_1397/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#23 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between chk_OBUF_inst_i_1398/S[3] and chk_OBUF_inst_i_1398/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#24 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between chk_OBUF_inst_i_1404/S[3] and chk_OBUF_inst_i_1404/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#25 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between chk_OBUF_inst_i_1405/S[1] and chk_OBUF_inst_i_1405/O[1] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#26 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between chk_OBUF_inst_i_1405/S[2] and chk_OBUF_inst_i_1405/O[2] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#27 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between chk_OBUF_inst_i_1405/S[3] and chk_OBUF_inst_i_1405/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#28 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between chk_OBUF_inst_i_1410/S[3] and chk_OBUF_inst_i_1410/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#29 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between chk_OBUF_inst_i_168/S[1] and chk_OBUF_inst_i_168/O[1] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#30 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between chk_OBUF_inst_i_168/S[2] and chk_OBUF_inst_i_168/O[2] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#31 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between chk_OBUF_inst_i_168/S[3] and chk_OBUF_inst_i_168/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#32 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between chk_OBUF_inst_i_179/I0 and chk_OBUF_inst_i_179/O to disable the timing loop
+Related violations: <none>
+
+
